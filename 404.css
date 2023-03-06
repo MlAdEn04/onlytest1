@@ -1,0 +1,94 @@
+
+.error-page {
+  max-width: 600px;
+  margin: 10% auto;
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(135, 206, 235, 0.8);
+  border-radius: 40px;
+  box-shadow: inset 0px 0px 65px rgba(27, 47, 71, 0.6), 0px 0px 20px rgba(20, 43, 71, 0.7);
+  border: solid 0px transparent;
+}
+
+
+.error-heading {
+  font-size: 120px;
+  color: #142b47;
+  line-height: 100px;
+  margin-bottom: 20px;
+  animation: bounce 3s infinite;
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.error-subheading {
+  font-size: 36px;
+  color: #142b47;
+  margin-bottom: 20px;
+}
+
+
+.error-message {
+  font-size: 18px;
+  color: #142b47;
+  margin-bottom: 40px;
+}
+
+.error-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #142b47;
+  color: skyblue;
+  border-radius: 15px;
+  line-height: 35px;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px rgba(135, 206, 235, 0.5);
+  text-decoration: none;
+  transition: ease-in 0.3s;
+}
+
+
+.error-link:hover {
+  background-color: skyblue;
+  color: #142b47;
+  transition: ease-out 0.3s;
+  text-shadow: 1px 1px 5px rgba(20, 43, 71, 0.5);
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .error-page {
+    max-width: 90%;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 45%;
+  }
+  
+  .error-heading {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  
+  .error-subheading {
+    font-size: 24px;
+  }
+  
+  .error-message {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,364 @@
+
+.Randombutton {
+background-color: rgba(20, 43, 71, 0.8);
+border: none;
+color: skyblue;
+padding: 15px 32px;
+text-decoration: none;
+font-size: 16px;
+border-radius: 15px;
+cursor: url(cursor.png), auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+transition: linear 0.25s;
+margin-top: 20px;
+box-shadow: inset 0px 0px 7.5px rgba(135, 206, 235, 0.7);
+
+}
+
+.Randombutton:hover {
+background-color: skyblue;
+color: #142b47;
+font-weight: 520;
+transition: linear 0.15s;
+transform: scale(1.025);
+box-shadow: inset 0px 0px 15px rgba(20, 43, 71, 0.7), 0px 0px 8px rgba(20, 43, 71, 0.65);
+
+
+}
+
+
+
+
+  #link img {
+    height: 448px;
+    width: 298px;
+	border-radius: 35px;
+    margin-top: 20px;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: ease-in 0.3s;
+    
+  }
+  
+#link p {
+       font-variant:small-caps;
+       color: #fff;
+       font-size: 25px;
+       font-family: 'Roboto', sans-serif;
+       letter-spacing: 0.5px;
+       font-weight: 550;
+       padding: 20px;
+       display: block;
+	   text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+
+}
+
+#link h5 {
+       text-transform: uppercase;
+       color: #fff;
+       font-size: 12.5px;
+       font-family: 'Roboto', sans-serif;
+       letter-spacing: 0.5px;
+       font-weight: 500;
+       display: block;
+	   text-align: center;
+       margin-left: auto;
+	   margin-right: auto;
+
+}
+
+
+
+@media screen and (max-width: 1610px) {
+
+.Randombutton {
+background-color: rgba(20, 43, 71, 0.8);
+border: none;
+color: skyblue;
+padding: 15px 32px;
+text-decoration: none;
+font-size: 16px;
+border-radius: 10px;
+cursor: url(cursor.png), auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+transition: ease-out 0.15s;
+margin-top: 20px;
+}
+
+.Randombutton:hover {
+background-color: skyblue;
+color: #142b47;
+font-weight: 520;
+transition: ease-out 0.15s;
+}
+
+  #link img {
+    height: 400px;
+    width: 280px;
+	border-radius: 30px;
+    margin-top: 15px;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    
+  }
+  
+#link p {
+       text-transform: uppercase;
+       color: #fff;
+       font-size: 22px;
+       font-family: 'Roboto', sans-serif;
+       letter-spacing: 1.5px;
+       font-weight: 550;
+       padding: 15px;
+       display: block;
+	   text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+
+}
+
+#link h5 {
+       text-transform: uppercase;
+       color: #fff;
+       font-size: 13px;
+       font-family: 'Roboto', sans-serif;
+       letter-spacing: 0.5px;
+       font-weight: 500;
+       display: block;
+	   text-align: center;
+       margin-left: auto;
+	   margin-right: auto;
+}
+
+
+
+
+@media screen and (max-width: 1377px) {
+
+.Randombutton {
+background-color: rgba(20, 43, 71, 0.8);
+border: none;
+color: skyblue;
+padding: 15px 32px;
+text-decoration: none;
+font-size: 16px;
+border-radius: 10px;
+cursor: url(cursor.png), auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+transition: ease-out 0.15s;
+margin-top: -13px;
+}
+
+.Randombutton:hover {
+background-color: skyblue;
+color: #142b47;
+font-weight: 520;
+transition: ease-out 0.15s;
+}
+
+  #link img {
+    height: 330px;
+    width: 230px;
+	border-radius: 30px;
+    margin-top: 10px;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    
+  }
+  
+#link p {
+       text-transform: uppercase;
+       color: #fff;
+       font-size: 22px;
+       font-family: 'Roboto', sans-serif;
+       letter-spacing: 1.5px;
+       font-weight: 550;
+       padding: 15px;
+       display: block;
+	   text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+
+}
+
+#link h5 {
+       text-transform: uppercase;
+       color: #fff;
+       font-size: 13px;
+       font-family: 'Roboto', sans-serif;
+       letter-spacing: 0.5px;
+       font-weight: 500;
+       display: block;
+	   text-align: center;
+       margin-left: auto;
+	   margin-right: auto;
+}
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 1290px) {
+
+.Randombutton {
+background-color: rgba(20, 43, 71, 0.8);
+border: none;
+color: skyblue;
+padding: 15px 32px;
+text-decoration: none;
+font-size: 16px;
+border-radius: 15px;
+cursor: url(cursor.png), auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+transition: ease-out 0.3s;
+margin-top: -13px;
+}
+
+.Randombutton:hover {
+background-color: skyblue;
+color: #142b47;
+font-weight: 520;
+transition: ease-out 0.3s;
+}
+
+  #link img {
+    height: 300px;
+    width: 200px;
+	border-radius: 30px;
+    margin-top: 10px;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    
+  }
+  
+#link p {
+       text-transform: uppercase;
+       color: #fff;
+       font-size: 22px;
+       font-family: 'Roboto', sans-serif;
+       letter-spacing: 1.5px;
+       font-weight: 550;
+       padding: 15px;
+       display: block;
+	   text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+
+}
+
+#link h5 {
+       text-transform: uppercase;
+       color: #fff;
+       font-size: 13px;
+       font-family: 'Roboto', sans-serif;
+       letter-spacing: 0.5px;
+       font-weight: 500;
+       display: block;
+	   text-align: center;
+       margin-left: auto;
+	   margin-right: auto;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 1090px) {
+
+.Randombutton {
+background-color: rgba(20, 43, 71, 0.8);
+border: none;
+color: skyblue;
+padding: 15px 32px;
+text-decoration: none;
+font-size: 30px;
+border-radius: 15px;
+cursor: url(cursor.png), auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+transition: linear 0.25s;
+margin-top: 90px;
+
+}
+
+.Randombutton:hover {
+background-color: skyblue;
+color: #142b47;
+font-weight: 550;
+transition: linear 0.15s;
+transform: scale(1.053);
+
+}
+
+
+
+
+  #link img {
+    height: 600px;
+    width: 350px;
+	border-radius: 40px;
+    margin-top: 70px;
+	margin-left: 75px;
+
+    
+  }
+  
+#link p {
+       font-variant:small-caps;
+       color: #fff;
+       font-size: 37px;
+       font-family: 'Roboto', sans-serif;
+       letter-spacing: 0.5px;
+       font-weight: 550;
+
+       display: block;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+
+
+}
+
+#link h5 {
+       text-transform: uppercase;
+       color: #fff;
+       font-size: 24px;
+       font-family: 'Roboto', sans-serif;
+       letter-spacing: 0.5px;
+       font-weight: 500;
+       display: block;
+	   text-align: center;
+       margin-left: auto;
+	   margin-right: auto;
+
+}
+
+
+}
+
+
+
+
+
+
+

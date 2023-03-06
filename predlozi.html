@@ -1,0 +1,305 @@
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head><meta name="theme-color" content="#142b47">
+<title>Only Movie</title>
+<script src="https://kit.fontawesome.com/7de992c0f0.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="sajt.css" />
+<link rel="shortcut icon" type="x-icon" href="logo.jpg" />
+<link rel="stylesheet" type="text/css" href="imagesslide.css" />
+<link rel="stylesheet" type="text/css" href="button.css" />
+<link rel="stylesheet" type="text/css" href="top.css" />
+<link rel="stylesheet" type="text/css" href="predlozi.css" />
+<link rel="stylesheet" type="text/css" href="footer.css" />
+<link rel="stylesheet" type="text/css" href="loader.css" />
+
+</head>
+<body>
+
+
+
+<div class="shadows" id="logo"><i class="fas fa-video"></i>Only<span class="shadows" id="logo-s">Movie</span></div>
+
+		<button onchange="openPage()" placeholder="Search Movies" class="button" id="button"><font style="font-family: Segoe UI Black; font-size: 17px"><i class="fas fa-search"></i></font></button>
+		<input class="search-form" type="search" value="" id="search" onchange="openPage()" onkeyup="changeInput(this.value)" pattern="[a-z- -@]*" placeholder="Search Movies">
+		<span class="HomeForSeries"><a class="act" href="series.html"><span class="shadows">HomeForSeries</span></a></span>
+		<span class="Home"><a class="act" href="index.html"><span class="shadows">Home</span></a></span>
+		<span class="About"><a class="shadows" href="about.html">About</a></span>
+		<span class="Contact"><a class="shadows" href="contact.html">Contact</a></span>
+<div id="result" style="" class="search-form"></div>
+
+
+
+
+
+<script src="search.js"></script>
+
+
+
+</br>
+
+
+
+
+<input class="Randombutton" style="float: center;  margin-left: auto; margin-right: auto;" type="button"
+    value="Pronadji Film" onclick="randomImg()">
+
+<div style="width: 470px; margin-left: auto; margin-right: auto;" align="center" id="link"><img src="predlozi.jpg">
+<p  style="width: 100%;" id="link">predlozi</p>
+<h5 id="link">film za koji se odlucite morate ukucati u serach</h5><p></p>
+</div>
+
+
+
+
+</br>
+
+<script type="text/javascript">
+
+function randomImg() {
+
+ var links = [
+        { 
+          text: "guess who </br> <h5>Comedy</h5>",
+          img:  "guesswho.jpg",
+		  link:	"guesswho.html"
+        },
+        {
+          text: "killers </br> <h5>Action</h5>",
+          img:  "killers.jpg",
+		  link:	"killers.html"
+        },
+{
+          text: "a walk among tombstones </br> <h5>Crime</h5>",
+		  img:  "awalkamongtombstones.jpg",
+		  link:	"awalkamongtombstones.html"
+        },
+{
+          text: "prisoners </br> <h5>Crime</h5>",
+          img:  "prisoners.jpg",
+		  link:	"prisoners.html"
+        },
+{
+          text: "creed </br> <h5>Action</h5>",
+		  img:  "creed.jpg",
+		  link:	"creed.html"
+        },
+        {
+          text: "get out </br> <h5>Mistery</h5>",
+          img:  "getout.jpg",
+		  link:	"getout.html"
+        },
+        {
+          text: "red notice </br> <h5>Action</h5>",
+          img:  "rednotice.jpg",
+		  link:	"rednotice.html"
+        },
+        {
+          text: "focus </br> <h5>Crime</h5>",
+          img:  "focus.jpg",
+		  link:	"focus.html"
+        },
+        {
+          text: "ted </br> <h5>Comedy</h5>",
+          img:  "ted1.jpg",
+		  link:	"ted1.html"
+        },
+        {
+          text: "bullet to the head </br> <h5>Action</h5>",
+          img:  "bullettothehead.jpg",
+		  link:	"bullettothehead.html"
+        },
+        {
+          text: "blue valentine </br> <h5>Drama</h5>",
+          img:  "bluevalentine.jpg",
+		  link:	"bluevalentine.html"
+        },
+       {
+          text: "transporter </br> <h5>Action</h5>",
+          img:  "transporter.jpg",
+		  link:	"transporter.html"
+        },
+       {
+          text: "dream house </br> <h5>Mistery</h5>",
+          img:  "dreamhouse.jpg",
+		  link:	"dreamhouse.html"
+        },
+       {
+          text: "cruella </br> <h5>Comedy</h5>",
+          img:  "cruella.jpg",
+		  link:	"cruella.html"
+        },
+       {
+          text: "free guy </br> <h5>Comedy</h5>",
+          img:  "freeguy.jpg",
+		  link:	"freeguy.html"
+        },
+       {
+          text: "bloodshot </br> <h5>Action</h5>",
+          img:  "bloodshot.jpg",
+		  link:	"bloodshot.html"
+        },
+       {
+          text: "ride along </br> <h5>Comedy</h5>",
+          img:  "ridealong.jpg",
+		  link:	"ridealong.html"
+        },
+       {
+          text: "i care a lot </br> <h5>Drama</h5>",
+          img:  "icarealot.jpg",
+		  link:	"icarealot.html"
+        },
+       {
+          text: "get carter </br> <h5>Action</h5>",
+          img:  "getcarter.jpg",
+		  link:	"getcarter.html"
+        },
+       {
+          text: "truth or dare </br> <h5>Horor</h5>",
+          img:  "truthordare.jpg",
+		  link:	"truthordare.html"
+        },
+       {
+          text: "november criminals </br> <h5>Mistery</h5>",
+          img:  "novembercriminals.jpg",
+		  link:	"novembercriminals.html"
+        },
+       {
+          text: "no strings attached </br> <h5>Comedy</h5>",
+          img:  "nostringsattached.jpg",
+		  link:	"nostringsattached.html"
+        },
+       {
+          text: "yes man </br> <h5>Comedy</h5>",
+          img:  "yesman.jpg",
+		  link:	"yesman.html"
+        },
+       {
+          text: "blitz </br> <h5>Crime</h5>",
+          img:  "blitz.jpg",
+		  link:	"blitz.html"
+        },
+       {
+          text: "sonic </br> <h5>Comedy</h5>",
+          img:  "sonic.jpg",
+		  link:	"sonic.html"
+        },
+       {
+          text: "homefront </br> <h5>Action</h5>",
+          img:  "homefront.jpg",
+		  link:	"homefront.html"
+        },
+       {
+          text: "white house down </br> <h5>Action</h5>",
+          img:  "whitehousedown.jpg",
+		  link:	"whitehousedown.html"
+        },
+       {
+          text: "hot fuzz </br> <h5>Mistery</h5>",
+          img:  "hotfuzz.jpg",
+		  link:	"hotfuzz.html"
+        },
+       {
+          text: "el camino </br> <h5>Crime</h5>",
+          img:  "elcamino.jpg",
+		  link:	"elcamino.html"
+        },
+       {
+          text: "vehicle 19 </br> <h5>Thriller</h5>",
+          img:  "vehicle19.jpg",
+		  link:	"vehicle19.html"
+        },
+		
+		
+		
+		
+      ];
+    var link = links[Math.floor(Math.random() * links.length)];
+    document.getElementById("link").innerHTML =
+      '<a href="' + link.link + '" style=" text-decoration: none;">' +
+        '<img src="' + link.img + '">' +
+        '<p id="link-text">' + link.text + '</p>' +
+      '</a>';
+  }
+
+</script>
+
+
+
+
+
+<footer style="margin-top: 15px;" class="footer shadows">
+	<div class="l-footer shadows">
+		<h1 style="font-family: sans-serif;" class="logo shadows">
+<i class="fas fa-video"></i>OnlyMovie</h1> 
+	<div class="b-footer shadows">
+
+
+<h4 class="shadows">
+© 2021 OnlyMovie All Rights Reserved </h4>
+	
+
+	</div>
+	</div>
+			<ul class="r-footer shadows">
+		<li>
+  			<h2 class="shadows">
+Social</h2>
+			<ul class="icon shadows">
+<div class="social-menu"> 
+  <ul>
+  
+    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+  </ul>
+</div>
+
+
+
+</ul>
+</li>
+<li class="features">
+  <h2 class="shadows">
+Pages</h2>
+<ul class="icon h-icon shadows" >
+<li><a class="shadows line" href="index.html">Home</a></li>
+<li><a class="shadows line" href="series.html">Home For Series</a></li>
+<li><a class="shadows line" href="about.html">About</a></li>
+<li><a class="shadows line" href="contact.html">Contact</a></li>
+
+</ul>
+</li>
+
+
+</footer><div id="menu" class="menu"><a href="index.html">Home</a><a href="series.html" >Home For Series</a><a href="contact.html" >Contact</a><a href="about.html" >About</a><a>Sorry but no inspect here</a></div><div id="menu" class="menu"><a href="index.html">Home</a><a href="series.html" >Home For Series</a><a href="contact.html" >Contact</a><a href="about.html" >About</a><a>Sorry but no inspect here</a></div>
+
+
+
+<div class="wrapper">
+  <span class="circle circle-1"></span>
+  <span class="circle circle-2"></span>
+  <span class="circle circle-3"></span>
+  <span class="circle circle-4"></span>
+  <span class="circle circle-5"></span>
+  <span class="circle circle-6"></span>
+  <span class="circle circle-7"></span>
+  
+</div>
+
+<script src="https://kit.fontawesome.com/7de992c0f0.js" crossorigin="anonymous"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.wrapper').fadeToggle();
+        }, 900);
+    </script>
+
+
+
+
+<script src="click.js"></script></body>
+</html>
+

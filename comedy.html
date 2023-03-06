@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta name="theme-color" content="#142b47">
+<title>Only Movie</title>
+<script src="https://kit.fontawesome.com/7de992c0f0.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="sajt.css" />
+<link rel="shortcut icon" type="x-icon" href="logo.jpg" />
+<link rel="stylesheet" type="text/css" href="imagesslide.css" />
+<link rel="stylesheet" type="text/css" href="button.css" />
+<link rel="stylesheet" type="text/css" href="top.css" />
+<link rel="stylesheet" type="text/css" href="loader.css" />
+<link rel="stylesheet" type="text/css" href="footer.css" />
+
+
+</head>
+<body>
+
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+
+
+
+<div class="shadows" id="logo"><i class="fas fa-video"></i>Only<span class="shadows" id="logo-s">Movie</span></div>
+
+		<button onchange="openPage()" placeholder="Search Movies" class="button" id="button"><font style="font-family: Segoe UI Black;" class="shadows"><i class="fas fa-search"></i></font></button>
+		<input class="search-form" type="search" value="" id="search" onchange="openPage()" onkeyup="changeInput(this.value)" pattern="[a-z- -@]*" placeholder="Search Movies">
+		<span class="HomeForSeries"><a class="act" href="series.html"><span class="shadows">HomeForSeries</span></a></span>
+		<span class="Home"><a class="act" href="index.html"><span class="shadows">Home</span></a></span>
+		<span class="About"><a class="shadows" href="about.html">About</a></span>
+		<span class="Contact"><a class="shadows" href="contact.html">Contact</a></span>
+
+
+<div class="br1">
+</br>
+</div>
+
+</br>
+	
+    <div class="slider">
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h3 class="title shadows"> NOBODY</h3>
+
+			</div>
+			<img class="imgs shadows" src="nobodyslide.jpg" style="width: 100%; height: 130%;"onclick="location.href='nobody.html';">
+		</div>
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h3 class="title shadows"> OCEAN'S 8</h3>
+
+			</div>
+			<img class="imgs shadows" src="oceans8slide.jpg" style="width: 100%; height: 135%;"onclick="location.href='oceans8.html';">
+		</div>
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h3 class="title shadows"> KNIVES OUT </h3>
+
+			</div>
+			<img class="imgs shadows" src="knivesoutslide.jpg" style="width: 100%; height: 130%;"onclick="location.href='knivesout.html';">
+		</div>
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h3 class="title shadows"> 21 BRIDGES </h3>
+
+			</div>
+			<img class="imgs shadows" src="21bridgesslide.jpg" style="width: 100%; height: 130%;"onclick="location.href='21bridges.html';">
+		</div>
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h3 class="title shadows"> COUNTDOWN </h3>
+
+			</div>
+			<img class="imgs shadows" src="countdownslide.jpg" style="width: 100%; height: 130%;"onclick="location.href='countdown.html';">
+		</div>
+
+		
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
+
+	</div>
+
+	
+<script src="jsfile.js"></script>
+
+
+
+<script src="search.js"></script>
+
+
+
+<script>
+
+var mybutton = document.getElementById("gotopbtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</form>  
+
+</br>
+
+<div>
+<span class="action" style="margin-left: 20px;"><a class="act" href="action.html"><span class="shadows">Action</span></a></span>
+<span class="comedy" style="margin-left: 20px;"><a class="act" href="comedy.html"><span class="shadows">Comedy</span></a></span>
+<span class="drama" style="margin-left: 20px;"><a class="act" href="drama.html"><span class="shadows">Drama</span></a></span>
+<span class="thriller" style="margin-left: 20px;"><a class="act" href="thriller.html"><span class="shadows">Thriller</span></a></span>
+<span class="crime" style="margin-left: 20px;"><a class="act" href="crime.html"><span class="shadows">Crime</span></a></span>
+<span class="mistery" style="margin-left: 20px;"><a class="act" href="mystery.html"><span class="shadows">Mystery</span></a></span>
+<span class="horor" style="margin-left: 20px;"><a class="act" href="horror.html"><span class="shadows">Horror</span></a></span>
+<span class="sci-fi" style="margin-left: 20px;"><a class="act" href="sci-fi.html"><span class="shadows">Sci-Fi</span></a></span>
+<span class="sci-fi" style="margin-left: 20px;"><a class="act" href="predlozi.html"><span class="shadows">Predlozi</span></a></span>
+</div>
+
+
+
+</br></br></br></br></br>
+<div class="space">
+</br>
+</div>
+
+
+
+
+
+	<div class="hover"
+style="background-image:url(zombieland2.jpg)"
+onclick="location.href='zombieland2.html';"
+data-text="zombieland Double Tap">
+</div>
+
+	<div class="hover"
+style="background-image:url(happydeathday2.jpg)"
+onclick="location.href='happydeathday2.html';"
+data-text="Happy Death Day 2U">
+</div>
+
+	<div class="hover"
+style="background-image:url(johnnyenglish3.jpg)"
+onclick="location.href='johnnyenglish3.html';"
+data-text="Johnny English Strikes Again">
+</div>
+
+	<div class="hover"
+style="background-image:url(shaunofthedead.jpg)"
+onclick="location.href='shaunofthedead.html';"
+data-text="Shaun of the dead">
+</div>
+
+	<div class="hover"
+style="background-image:url(zombieland.jpg)"
+onclick="location.href='zombieland.html';"
+data-text="zombieland">
+</div>
+
+	<div class="hover"
+style="background-image:url(thefinalgirls.jpg)"
+onclick="location.href='thefinalgirls.html';"
+data-text="the final girls">
+</div>
+
+	<div class="hover"
+style="background-image:url(tuckeranddalevsevil.jpg)"
+onclick="location.href='tuckeranddalevsevil.html';"
+data-text="tucker and dale vs evil">
+</div>
+
+	<div class="hover"
+style="background-image:url(behindthemasktheriseofleslievernon.jpg)"
+onclick="location.href='behindthemasktheriseofleslievernon.html';"
+data-text="Behind the Mask: The Rise of Leslie Vernon">
+</div>
+
+	<div class="hover"
+style="background-image:url(thevoices.jpg)"
+onclick="location.href='thevoices.html';"
+data-text="the voices">
+</div>
+
+	<div class="hover"
+style="background-image:url(happydeathday.jpg)"
+onclick="location.href='happydeathday.html';"
+data-text="Happy Death day">
+</div>
+
+	<div class="hover"
+style="background-image:url(thelighthouse.jpg)"
+onclick="location.href='thelighthouse.html';"
+data-text="The Lighthouse">
+</div>
+
+	<div class="hover"
+style="background-image:url(bluestreak.jpg)"
+onclick="location.href='bluestreak.html';"
+data-text="blue streak">
+</div>
+
+	<div class="hover"
+style="background-image:url(harlemnights.jpg)"
+onclick="location.href='harlemnights.html';"
+data-text="harlem nights">
+</div>
+
+	<div class="hover"
+style="background-image:url(moneytrain.jpg)"
+onclick="location.href='moneytrain.html';"
+data-text="money train">
+</div>
+
+	<div class="hover"
+style="background-image:url(towerheist.jpg)"
+onclick="location.href='towerheist.html';"
+data-text="tower heist">
+</div>
+
+	<div class="hover"
+style="background-image:url(aladdin.jpg)"
+onclick="location.href='aladdin.html';"
+data-text="aladdin">
+</div>
+
+	<div class="hover"
+style="background-image:url(beverlyhillscop1.jpg)"
+onclick="location.href='beverlyhillscop1.html';"
+data-text="beverly hill cop ">
+</div>
+
+	<div class="hover"
+style="background-image:url(anchorman2.jpg)"
+onclick="location.href='anchorman2.html';"
+data-text="anchorman the legend continues">
+</div>
+
+	<div class="hover"
+style="background-image:url(warwithgrandpa.jpg)"
+onclick="location.href='warwithgrandpa.html';"
+data-text="the war with grandpa">
+</div>
+
+	<div class="hover"
+style="background-image:url(spy.jpg)"
+onclick="location.href='spy.html';"
+data-text="spy">
+</div>
+
+	<div class="hover"
+style="background-image:url(theotherguys.jpg)"
+onclick="location.href='theotherguys.html';"
+data-text="the other guys">
+</div>
+
+	<div class="hover"
+style="background-image:url(justgowithit.jpg)"
+onclick="location.href='justgowithit.html';"
+data-text="just go with it">
+</div>
+
+	<div class="hover"
+style="background-image:url(skyhigh.jpg)"
+onclick="location.href='skyhigh.html';"
+data-text="sky high">
+</div>
+
+	<div class="hover"
+style="background-image:url(perfectpairing.jpg)"
+onclick="location.href='perfectpairing.html';"
+data-text="A Perfect Pairing">
+</div>
+
+	<div class="hover"
+style="background-image:url(metime.jpg)"
+onclick="location.href='metime.html';"
+data-text="Me Time">
+</div>
+
+	<div class="hover"
+style="background-image:url(antman.jpg)"
+onclick="location.href='antman.html';"
+data-text="Antman">
+</div>
+
+	<div class="hover"
+style="background-image:url(arthur.jpg)"
+onclick="location.href='arthur.html';"
+data-text="Arthur">
+</div>
+
+	<div class="hover"
+style="background-image:url(thepacifier.jpg)"
+onclick="location.href='thepacifier.html';"
+data-text="The Pacifier">
+</div>
+
+	<div class="hover"
+style="background-image:url(gethard.jpg)"
+onclick="location.href='gethard.html';"
+data-text="Get Hard">
+</div>
+
+	<div class="hover"
+style="background-image:url(guardiansofthegalaxy2.jpg)"
+onclick="location.href='guardiansofthegalaxy2.html';"
+data-text="Guardian Of The Galaxy Vol. 2">
+</div>
+
+	<div class="hover"
+style="background-image:url(walkofshame.jpg)"
+onclick="location.href='walkofshame.html';"
+data-text="Walk of Shame">
+</div>
+
+	<div class="hover"
+style="background-image:url(thechangeup.jpg)"
+onclick="location.href='thechangeup.html';"
+data-text="The Change-Up">
+</div>
+
+	<div class="hover"
+style="background-image:url(abouttime.jpg)"
+onclick="location.href='abouttime.html';"
+data-text="About Time">
+</div>
+
+	<div class="hover"
+style="background-image:url(mrright.jpg)"
+onclick="location.href='mrright.html';"
+data-text="Mr. Right">
+</div>
+
+	<div class="hover"
+style="background-image:url(bountyhunter.jpg)"
+onclick="location.href='bountyhunter.html';"
+data-text="Bounty Hunter">
+</div>
+
+	<div class="hover"
+style="background-image:url(pokemondetective.jpg)"
+onclick="location.href='pokemondetective.html';"
+data-text="Pokemon Detective Pikachu">
+</div>
+
+	<div class="hover"
+style="background-image:url(anchorman.jpg)"
+onclick="location.href='anchorman.html';"
+data-text="Anchorman">
+</div>
+
+	<div class="hover"
+style="background-image:url(friendswithbenefits.jpg)"
+onclick="location.href='friendswithbenefits.html';"
+data-text="Friends With Benefits">
+</div>
+
+	<div class="hover"
+style="background-image:url(jennifersbody.jpg)"
+onclick="location.href='jennifersbody.html';"
+data-text="Jennifer's Body">
+</div>
+
+	<div class="hover"
+style="background-image:url(theadamproject.jpg)"
+onclick="location.href='theadamproject.html';"
+data-text="The Adam Project">
+</div>
+
+	<div class="hover"
+style="background-image:url(badmoms2.jpg)"
+onclick="location.href='badmoms2.html';"
+data-text="Bad Moms 2">
+</div>
+
+	<div class="hover"
+style="background-image:url(meninblack3.jpg)"
+onclick="location.href='meninblack3.html';"
+data-text="Men In Black 3">
+</div>
+
+	<div class="hover"
+style="background-image:url(norbit.jpg)"
+onclick="location.href='norbit.html';"
+data-text="Norbit">
+</div>
+
+
+	<div class="hover"
+style="background-image:url(rushhour.jpg)"
+onclick="location.href='rushhour.html';"
+data-text="Rush Hour">
+</div>
+
+	<div class="hover"
+style="background-image:url(badmoms.jpg)"
+onclick="location.href='badmoms.html';"
+data-text="Bad Moms">
+</div>
+
+	<div class="hover"
+style="background-image:url(tropicthunder.jpg)"
+onclick="location.href='tropicthunder.html';"
+data-text="Tropic Thunder">
+</div>
+
+	<div class="hover"
+style="background-image:url(meetdave.jpg)"
+onclick="location.href='meetdave.html';"
+data-text="Meet Dave">
+</div>
+
+	<div class="hover"
+style="background-image:url(spacejam.jpg)"
+onclick="location.href='spacejam.html';"
+data-text="Space Jam">
+</div>
+
+	<div class="hover"
+style="background-image:url(alotlikelove.jpg)"
+onclick="location.href='alotlikelove.html';"
+data-text="A Lot Like Love">
+</div>
+
+	<div class="hover"
+style="background-image:url(spacejam2.jpg)"
+onclick="location.href='spacejam2.html';"
+data-text="Space Jam 2">
+</div>
+
+	<div class="hover"
+style="background-image:url(nostringsattached.jpg)"
+onclick="location.href='nostringsattached.html';"
+data-text="No Strings Attached">
+</div>
+
+	<div class="hover"
+style="background-image:url(pitchperfect2.jpg)"
+onclick="location.href='pitchperfect2.html';"
+data-text="Pitch Perfect 2">
+</div>
+
+	<div class="hover"
+style="background-image:url(hesallthat.jpg)"
+onclick="location.href='hesallthat.html';"
+data-text="He's All That">
+</div>
+
+	<div class="hover"
+style="background-image:url(pitchperfect3.jpg)"
+onclick="location.href='pitchperfect3.html';"
+data-text="Pitch Perfect 3">
+</div>
+
+	<div class="hover"
+style="background-image:url(guesswho.jpg)"
+onclick="location.href='guesswho.html';"
+data-text="Guess Who">
+</div>
+
+	<div class="hover"
+style="background-image:url(yesman.jpg)"
+onclick="location.href='yesman.html';"
+data-text="Yes Man">
+</div>
+
+	<div class="hover"
+style="background-image:url(themanfromuncle.jpg)"
+onclick="location.href='themanfromuncle.html';"
+data-text="The Man From U.N.C.L.E">
+</div>
+
+	<div class="hover"
+style="background-image:url(birdsofpray.jpg)"
+onclick="location.href='birdsofpray.html';"
+data-text="Birds Of Prey">
+</div>
+
+	<div class="hover"
+style="background-image:url(badteacher.jpg)"
+onclick="location.href='badteacher.html';"
+data-text="Bad Teacher">
+</div>
+
+	<div class="hover"
+style="background-image:url(thespywhodumpedme.jpg)"
+onclick="location.href='thespywhodumpedme.html';"
+data-text="The Spy Who Dumped Me">
+</div>
+
+	<div class="hover"
+style="background-image:url(killers.jpg)"
+onclick="location.href='killers.html';"
+data-text="Killers">
+</div>
+
+	<div class="hover"
+style="background-image:url(rednotice.jpg)"
+onclick="location.href='rednotice.html';"
+data-text="Red Notice">
+</div>
+
+	<div class="hover"
+style="background-image:url(focus.jpg)"
+onclick="location.href='focus.html';"
+data-text="Focus">
+</div>
+
+	<div class="hover"
+style="background-image:url(doghouse.jpg)"
+onclick="location.href='doghouse.html';"
+data-text="Doghouse">
+</div>
+
+	<div class="hover"
+style="background-image:url(jumanji.jpg)"
+onclick="location.href='jumanji.html';"
+data-text="Jumanji">
+</div>
+
+	<div class="hover"
+style="background-image:url(jumanji2.jpg)"
+onclick="location.href='jumanji2.html';"
+data-text="Jumanji: The Next Level">
+</div>
+
+	<div class="hover"
+style="background-image:url(sonic.jpg)"
+onclick="location.href='sonic.html';"
+data-text="Sonic">
+</div>
+
+	<div class="hover"
+style="background-image:url(mycousinvinny.jpg)"
+onclick="location.href='mycousinvinny.html';"
+data-text="My Cousin Vinny">
+</div>
+
+	<div class="hover"
+style="background-image:url(whathappensinvegas.jpg)"
+onclick="location.href='whathappensinvegas.html';"
+data-text="What Happens In Vegas">
+</div>
+
+	<div class="hover"
+style="background-image:url(red2.jpg)"
+onclick="location.href='red2.html';"
+data-text="RED 2">
+</div>
+
+	<div class="hover"
+style="background-image:url(maninblack2.jpg)"
+onclick="location.href='maninblack2.html';"
+data-text="Man In Black 2">
+</div>
+
+	<div class="hover"
+style="background-image:url(mask2.jpg)"
+onclick="location.href='mask2.html';"
+data-text="Son Of The Mask">
+</div>
+
+	<div class="hover"
+style="background-image:url(badboys.jpg)"
+onclick="location.href='badboys.html';"
+data-text="Bad Boys">
+</div>
+
+	<div class="hover"
+style="background-image:url(ted2.jpg)"
+onclick="location.href='ted2.html';"
+data-text="Ted 2">
+</div>
+
+	<div class="hover"
+style="background-image:url(athousandwords.jpg)"
+onclick="location.href='athousandwords.html';"
+data-text="A Thousand Words">
+</div>
+
+	<div class="hover"
+style="background-image:url(themask.jpg)"
+onclick="location.href='themask.html';"
+data-text="The Mask">
+</div>
+
+	<div class="hover"
+style="background-image:url(johnnyenglish2.jpg)"
+onclick="location.href='johnnyenglish2.html';"
+data-text="Johnny English: Reborn">
+</div>
+
+	<div class="hover"
+style="background-image:url(hotfuzz.jpg)"
+onclick="location.href='hotfuzz.html';"
+data-text="Hot Fuzz">
+</div>
+
+	<div class="hover"
+style="background-image:url(meninblack.jpg)"
+onclick="location.href='meninblack.html';"
+data-text="Men In Black">
+</div>
+	
+	<div class="hover"
+style="background-image:url(thebucketlist.jpg)"
+onclick="location.href='thebucketlist.html';"
+data-text="The Bucket List">
+</div>
+
+	<div class="hover"
+style="background-image:url(red.jpg)"
+onclick="location.href='red.html';"
+data-text="Red">
+</div>
+
+	<div class="hover"
+style="background-image:url(hotpursuit.jpg)"
+onclick="location.href='hotpursuit.html';"
+data-text="Hot Pursuit">
+</div>
+
+	<div class="hover"
+style="background-image:url(pitchperfect.jpg)"
+onclick="location.href='pitchperfect.html';"
+data-text="Pitch Perfect">
+</div>
+
+	<div class="hover"
+style="background-image:url(hitmanswifesbodyguard.jpg)"
+onclick="location.href='hitmanswifesbodyguard.html';"
+data-text="Hitman's Wife's Bodyguard">
+</div>
+
+	<div class="hover"
+style="background-image:url(thehangover2.jpg)"
+onclick="location.href='thehangover2.html';"
+data-text="The Hangover 2">
+</div>
+
+	<div class="hover"
+style="background-image:url(thehangover3.jpg)"
+onclick="location.href='thehangover3.html';"
+data-text="The Hangover 3">
+</div>
+
+	<div class="hover"
+style="background-image:url(jumpstreet22.jpg)"
+onclick="location.href='jumpstreet22.html';"
+data-text="Jump Street 22">
+</div>
+
+	<div class="hover"
+style="background-image:url(coming2america.jpg)"
+onclick="location.href='coming2america.html';"
+data-text="Coming 2 America">
+</div>
+
+	<div class="hover"
+style="background-image:url(imaginethat.jpg)"
+onclick="location.href='imaginethat.html';"
+data-text="Imagine That">
+</div>
+
+	<div class="hover"
+style="background-image:url(afterlifeoftheparty.jpg)"
+onclick="location.href='afterlifeoftheparty.html';"
+data-text="Afterlife Of The Party">
+</div>
+
+	<div class="hover"
+style="background-image:url(theweddingringer.jpg)"
+onclick="location.href='theweddingringer.html';"
+data-text="The Wedding Ringer">
+</div>
+
+	<div class="hover"
+style="background-image:url(Cruella.jpg)"
+onclick="location.href='Cruella.html';"
+data-text="Cruella">
+</div>
+
+	<div class="hover"
+style="background-image:url(thisiswhereileaveyou.jpg)"
+onclick="location.href='thisiswhereileaveyou.html';"
+data-text="This Is Where I Leave You">
+</div>
+
+	<div class="hover"
+style="background-image:url(freeguy.jpg)"
+onclick="location.href='freeguy.html';"
+data-text="Free Guy">
+</div>
+
+	<div class="hover"
+style="background-image:url(shazam.jpg)"
+onclick="location.href='shazam.html';"
+data-text="Shazam">
+</div>
+
+	<div class="hover"
+style="background-image:url(baywatch.jpg)"
+onclick="location.href='baywatch.html';"
+data-text="baywatch">
+</div>
+
+	<div class="hover"
+style="background-image:url(johnwick.jpg)"
+onclick="location.href='johnwick.html';"
+data-text="John Wick">
+</div>
+
+	<div class="hover"
+style="background-image:url(ridealong.jpg)"
+onclick="location.href='ridealong.html';"
+data-text="Ride Along">
+</div>
+
+	<div class="hover"
+style="background-image:url(ridealong2.jpg)"
+onclick="location.href='ridealong2.html';"
+data-text="Ride Along 2">
+</div>
+
+	<div class="hover"
+style="background-image:url(thehangover.jpg)"
+onclick="location.href='thehangover.html';"
+data-text="The Hangover">
+</div>
+
+	<div class="hover"
+style="background-image:url(icarealot.jpg)"
+onclick="location.href='icarealot.html';"
+data-text="I Care A Lot">
+</div>
+
+	<div class="hover"
+style="background-image:url(dolemiteismyname.jpg)"
+onclick="location.href='dolemiteismyname.html';"
+data-text="Dolemite Is My Name">
+</div>
+
+	<div class="hover"
+style="background-image:url(theupside.jpg)"
+onclick="location.href='theupside.html';"
+data-text="The Upside">
+</div>
+
+	<div class="hover"
+style="background-image:url(thehitmansbodyguard.jpg)"
+onclick="location.href='thehitmansbodyguard.html';"
+data-text="The Hitman's Bodybuard">
+</div>
+
+	<div class="hover"
+style="background-image:url(hitch.jpg)"
+onclick="location.href='hitch.html';"
+data-text="Hitch">
+</div>
+
+	<div class="hover"
+style="background-image:url(tag.jpg)"
+onclick="location.href='tag.html';"
+data-text="Tag">
+</div>
+
+	<div class="hover"
+style="background-image:url(spenserconfidential.jpg)"
+onclick="location.href='spenserconfidetial.html';"
+data-text="Spenser Confidential">
+</div>
+
+	<div class="hover"
+style="background-image:url(ted1.jpg)"
+onclick="location.href='ted1.html';"
+data-text="Ted 1">
+</div>
+
+	<div class="hover"
+style="background-image:url(knivesout.jpg)"
+onclick="location.href='knivesout.html';"
+data-text="Knives Out">
+</div>
+
+	<div class="hover"
+style="background-image:url(jumpstreet21.jpg)"
+onclick="location.href='jumpstreet21.html';"
+data-text="Jump Street 21">
+</div>
+
+	<div class="hover"
+style="background-image:url(americanmade.jpg)"
+onclick="location.href='americanmade.html';"
+data-text="American Made">
+</div>
+
+	<div class="hover"
+style="background-image:url(showtime.jpg)"
+onclick="location.href='showtime.html';"
+data-text="Showtime">
+</div>
+
+	<div class="hover"
+style="background-image:url(comingtoamerica.jpg)"
+onclick="location.href='comingtoamerica.html';"
+data-text="Coming To America">
+</div>
+
+	<div class="hover"
+style="background-image:url(asimplefavor.jpg)"
+onclick="location.href='asimplefavor.html';"
+data-text="A Simple Favor">
+</div>
+
+	<div class="hover"
+style="background-image:url(instantfamily.jpg)"
+onclick="location.href='instantfamily.html';"
+data-text="Instant Family">
+</div>
+
+	<div class="hover"
+style="background-image:url(grudgematch.jpg)"
+onclick="location.href='grudgematch.html';"
+data-text="grudge Match">
+</div>
+
+	<div class="hover"
+style="background-image:url(thelayover.jpg)"
+onclick="location.href='thelayover.html';"
+data-text="The Layover">
+</div>
+
+	<div class="hover"
+style="background-image:url(gamenight.jpg)"
+onclick="location.href='gamenight.html';"
+data-text="Game Night">
+</div>
+
+	<div class="hover"
+style="background-image:url(oceans8.jpg)"
+onclick="location.href='oceans8.html';"
+data-text="Ocean's 8">
+</div>
+
+	<div class="hover"
+style="background-image:url(johnnyenglish.jpg)"
+onclick="location.href='johnnyenglish.html';"
+data-text="Johnny Ebglish 1">
+</div>
+
+	<div class="hover"
+style="background-image:url(gunsakimbo.jpg)"
+onclick="location.href='gunsakimbo.html';"
+data-text="Guns Akimbo">
+</div>
+
+	<div class="hover"
+style="background-image:url(readyornot.jpg)"
+onclick="location.href='readyornot.html';"
+data-text="Ready Or Not">
+</div>
+
+	<div class="hover"
+style="background-image:url(mrandmrssmith.jpg)"
+onclick="location.href='mrandmrssmith.html';"
+data-text="Mr And Mrs Smith">
+</div>
+
+	<div class="hover"
+style="background-image:url(mrchurch.jpg)"
+onclick="location.href='mrchurch.html';"
+data-text="Mr. Church">
+</div>
+
+
+</br>
+</br>
+
+</br>
+
+<footer class="footer shadows" style="position: relative;">
+	<div class="l-footer shadows">
+		<h1 style="font-family: sans-serif;" class="logo shadows">
+<i class="fas fa-video"></i>OnlyMovie</h1> 
+	<div class="b-footer shadows">
+
+
+<h4 class="shadows">
+© 2021 OnlyMovie All Rights Reserved </h4>
+	
+
+	</div>
+	</div>
+			<ul class="r-footer shadows">
+		<li>
+  			<h2 class="shadows">
+Social</h2>
+			<ul class="icon shadows">
+<div class="social-menu"> 
+  <ul>
+  
+    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+  </ul>
+</div>
+
+
+
+</ul>
+</li>
+<li class="features">
+  <h2 class="shadows">
+Pages</h2>
+<ul class="icon h-icon shadows" >
+<li><a class="shadows line" href="index.html">Home</a></li>
+<li><a class="shadows line" href="series.html">Home For Series</a></li>
+<li><a class="shadows line" href="about.html">About</a></li>
+<li><a class="shadows line" href="contact.html">Contact</a></li>
+
+</ul>
+</li>
+
+
+</footer><div id="menu" class="menu"><a href="index.html">Home</a><a href="series.html" >Home For Series</a><a href="contact.html" >Contact</a><a href="about.html" >About</a><a>Sorry but no inspect here</a></div><div id="menu" class="menu"><a href="index.html">Home</a><a href="series.html" >Home For Series</a><a href="contact.html" >Contact</a><a href="about.html" >About</a><a>Sorry but no inspect here</a></div>
+
+
+
+     <a class="gotopbtn" href="#" id="gotopbtn"> <span style=" margin-top: 10px;" class="txt"><i class="fas fa-chevron-up"></i></span> </a>
+
+
+<div class="wrapper">
+  <span class="circle circle-1"></span>
+  <span class="circle circle-2"></span>
+  <span class="circle circle-3"></span>
+  <span class="circle circle-4"></span>
+  <span class="circle circle-5"></span>
+  <span class="circle circle-6"></span>
+  <span class="circle circle-7"></span>
+  
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.wrapper').fadeToggle();
+        }, 900);
+    </script>
+
+
+
+
+<script>
+
+var mybutton = document.getElementById("gotopbtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<script>
+
+document.addEventListener("scroll", myFunction);
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
+<script src="click.js"></script></body>
+
+</html>
+
+
+
+
