@@ -1722,6 +1722,18 @@ br::selection{
 	}
 }
 
+@media screen and (max-height: 1090px) {
+
+.color{
+	position: relative;
+    width:500px;
+    height:75px;
+	background-color: transparent;
+	  float:left;
+    display: block;
+	grid-template-columns: auto auto auto;
+	}
+}
 
 .hidden1{
 	font-size: 1px;
@@ -1734,7 +1746,12 @@ br::selection{
 	}
 }
 
-
+@media screen and (max-height: 1090px) {
+	.hidden1{
+		font-size: 10px;
+		position: relative;
+	}
+}
 
 
 

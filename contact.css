@@ -79,7 +79,7 @@ form {
 	background-size: 160%;
 	padding: 30px;
 	border-radius: 20px;
-	max-width: 600px;
+	max-width: 700px;
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 200px;
@@ -92,13 +92,13 @@ input[type="text"],
 textarea {
 	width: 100%;
 	padding: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	box-sizing: border-box;
 	border: 2px solid #142b47;
 	border-radius: 5px;
 	background-color: #142b47;
 	resize: none;
-	font-size: 23px;
+	font-size: 26px;
 	color: skyblue;
 	text-transform: none;
 	outline: none;
@@ -149,6 +149,44 @@ label {
 	width: 100%;
 }
 
+}
+
+
+.color1{
+	position: relative;
+    width:0px;
+    height:0px;
+	background-color: transparent;
+	float:left;
+    display: block;
+	padding-bottom: 20px;
+}
+
+
+@media screen and (max-width: 1090px) {
+
+.color1{
+	position: relative;
+    width:500px;
+    height:600px;
+	background-color: transparent;
+	  float:left;
+    display: block;
+	grid-template-columns: auto auto auto;
+	}
+}
+
+@media screen and (max-height: 1090px) {
+
+.color1{
+	position: relative;
+    width:500px;
+    height:75px;
+	background-color: transparent;
+	  float:left;
+    display: block;
+	grid-template-columns: auto auto auto;
+	}
 }
 
 
