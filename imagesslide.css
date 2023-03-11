@@ -827,7 +827,12 @@ width: 15px;
 }
 
 
-
+@media screen and (max-aspect-ratio: 9/16) {
+  /* Landscape */
+  meta[name="theme-color"] {
+    content: transparent;
+  }
+}
 
 
 @media screen and (min-width: 2140px) {
@@ -914,7 +919,7 @@ width: 15px;
 
 @media screen and (max-width: 1750px){
 .myslide{
-	height: 680px;
+	height: 670px;
 	display: none;
 	overflow: hidden;
 	border-radius: 3px 3px 3px 3px;
@@ -926,7 +931,7 @@ width: 15px;
 
 @media screen and (max-width: 1600px){
 .myslide{
-	height: 650px;
+	height: 630px;
 	display: none;
 	overflow: hidden;
 	border-radius: 3px 3px 3px 3px;
