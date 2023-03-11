@@ -655,11 +655,11 @@ i{
       display: none;
       border-radius: 8px;
       position: fixed;
-      background-color: #142b47;
+      background-color: rgba(20, 43, 71, 0.95);
       color: #142b47;
       padding: 8px;
       z-index: 10;
-      box-shadow: inset 0px 0px 60px rgba(135, 206, 235, 0.25);
+      box-shadow: inset 0px 0px 70px rgba(135, 206, 235, 0.1);
 	  cursor: url(cursor.png), auto;
 	  resize: none;
 
