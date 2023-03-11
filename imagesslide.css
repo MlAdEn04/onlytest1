@@ -830,7 +830,7 @@ width: 15px;
 @media screen and (max-aspect-ratio: 9/16) {
   /* Landscape */
   meta[name="theme-color"] {
-    content: #142b47;
+    content: transparent;
   }
 }
 
@@ -1771,6 +1771,30 @@ br::selection{
 	position: relative;
     width:500px;
     height:75px;
+	background-color: transparent;
+	  float:left;
+    display: block;
+	grid-template-columns: auto auto auto;
+	}
+}
+
+.color2{
+	position: relative;
+    width:0px;
+    height:0px;
+	background-color: transparent;
+	float:left;
+    display: block;
+	padding-bottom: 20px;
+}
+
+
+@media screen and (max-width: 1090px) {
+
+.color2{
+	position: relative;
+    width:900px;
+    height:630px;
 	background-color: transparent;
 	  float:left;
     display: block;
