@@ -830,7 +830,7 @@ width: 15px;
 @media screen and (max-aspect-ratio: 9/16) {
   /* Landscape */
   meta[name="theme-color"] {
-    content: transparent;
+    content: #142b47;
   }
 }
 
