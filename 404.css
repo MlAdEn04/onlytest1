@@ -25,7 +25,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-25px);
   }
   100% {
     transform: translateY(0);
@@ -64,7 +64,7 @@
   background-color: skyblue;
   color: #142b47;
   transition: ease-out 0.3s;
-  text-shadow: 1px 1px 5px rgba(20, 43, 71, 0.5);
+  text-shadow: 1px 1px 5px rgba(20, 43, 71, 0.25);
 }
 
 
@@ -80,8 +80,8 @@
   }
   
   .error-heading {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 90px;
+    line-height: 100px;
   }
   
   .error-subheading {
@@ -89,6 +89,7 @@
   }
   
   .error-message {
-    font-size: 16px;
+    font-size: 18px;
+	text-align: center;
   }
 }

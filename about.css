@@ -136,20 +136,41 @@ color: skyblue;
 text-decoration: none;
 }
 
-.service p {
+.service span {
 font-size: 29px;
 line-height: 1.5;
 color: skyblue;
 width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1090px) {
 .service-container {
 flex-direction: column;
 align-items: center;
 }
 .service {
-width: 80%;
+width: 70%;
+border-radius:15px;
+}
+
+.service i {
+font-size: 100px;
+color: skyblue;
+margin-bottom: 20px;
+}
+
+.service h3 a{
+font-size: 65px;
+margin-bottom: 20.5px;
+color: skyblue;
+text-decoration: none;
+}
+
+.service span {
+font-size: 35px;
+line-height: 1.5;
+color: skyblue;
+width: 100%;
 }
 
 }
