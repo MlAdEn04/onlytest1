@@ -132,7 +132,7 @@
   top:0;
   left: 0;
   width: 100%;
-  height: 3.25px;
+  height: 3.4px;
   background-image: linear-gradient(to right, #142b47, skyblue, skyblue);
   z-index: 5;
   border-radius: 0px 100px 100px 0px ;
@@ -200,15 +200,22 @@
   }
 }
 
-@media screen and (min-width: 2150px) {
+
+
+
+@media screen and (min-width: 2155px) {
   .hover {
     margin-left: auto;
 	margin-right: auto;
-	margin: 6.8px;
-	width: 200px;
+	margin: 6.75px;
+	width: 202px;
 	height: 260px;
   }
 }
+
+
+
+
 
 @media screen and (max-width: 1770px) {
   .hover {
@@ -268,6 +275,7 @@
 	margin: 5.8px;
 	width: 186px;
 	height: 246px;
+	border-radius:11px 11px 11px 11px;
   }
 
   .hover:after{
@@ -393,7 +401,7 @@
 	margin: 10px;
 	width: 350px;
 	height: 435px;
-	border-radius:13px 13px 13px 13px;
+	border-radius:15px;
   }
   .hover:after{
 	position:absolute;
@@ -436,7 +444,7 @@
 	margin: 8.5px;
 	width: 340px;
 	height: 450px;
-	border-radius:15px 15px 15px 15px;
+	border-radius: 17px;
   }
   .hover:after{
 	position:absolute;
@@ -456,7 +464,7 @@
 	font-size: 30px;
 	font-family: sans-serif;
 	font-weight: 600;
-	border-radius:11px 11px 11px 11px;
+	border-radius:17px 17px 17px 17px;
 	cursor: url(cursor.png), auto;
   }
 
@@ -511,7 +519,7 @@
 	margin: 8px;
 	width: 310px;
 	height: 420px;
-	border-radius:13px 13px 13px 13px;
+	border-radius:18px;
   }
   .hover:after{
 	position:absolute;
@@ -532,7 +540,7 @@
 	letter-spacing: 0.5px;
 	font-family: sans-serif;
 	font-weight: 600;
-	border-radius:13px 13px 13px 13px;
+	border-radius: 18px;
 	box-shadow: 0px 0px  12px #142b47;
 	cursor: url(cursor.png), auto;
 	
@@ -547,7 +555,7 @@
 	margin: 6.5px;
 	width: 180px;
 	height: 250px;
-	border-radius: 18px;
+	border-radius: 17px;
   }
   .hover:after{
 	position:absolute;
@@ -568,7 +576,7 @@
 	letter-spacing: 0.5px;
 	font-family: sans-serif;
 	font-weight: 600;
-	border-radius: 20px;
+	border-radius: 17px;
 	box-shadow: 0px 0px  12px #142b47;
 	cursor: url(cursor.png), auto;
 	
