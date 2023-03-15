@@ -1190,7 +1190,7 @@ vertical-align: baseline;
 
 #logo{
     line-height: 40px;
-    margin-left: 4px;
+    margin-left: 5px;
     display: inline-block;
 	cursor: pointer;
 	font-size: 39px;
@@ -1209,7 +1209,7 @@ vertical-align: baseline;
 #logo-s{
 	transition: ease-out 0.2s;
 	color: #eef9ff;
-	margin-left: -110px;
+	margin-left: -118px;
 	cursor: url(cursor.png), auto;
 	position: absolute;
 	margin-top: 40px;
