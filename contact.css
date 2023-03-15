@@ -1,6 +1,6 @@
 
 form {
-	background-image: linear-gradient(160deg, skyblue, #14385f);
+	background-image: linear-gradient(160deg, rgba(135, 206, 235, 0.5), rgba(20, 56, 95, 0.5));
 	background-size: 277%;
 	padding: 30px;
 	border-radius: 20px;
@@ -40,12 +40,13 @@ input[type="submit"] {
 	font-size: 18px;
 	margin-bottom: 20px;
 	transition: ease-in 0.3s;
+	width: 50%;
 }
 
 input[type="submit"]:hover {
 	background-color: skyblue;
 	color: #142b47;
-	box-shadow: 0px 0px 8px #142b47;
+	box-shadow: 0px 0px 8px rgba(20, 56, 95, 0.5);
 	transition: ease-out 0.3s;
 }
 
@@ -75,7 +76,7 @@ label {
 @media screen and (max-width: 1090px) {
 
 form {
-	background-image: linear-gradient(160deg, skyblue, #14385f);
+		background-image: linear-gradient(160deg, rgba(135, 206, 235, 0.5), rgba(20, 56, 95, 0.5));
 	background-size: 160%;
 	padding: 30px;
 	border-radius: 20px;
@@ -112,18 +113,19 @@ input[type="submit"] {
 	color: skyblue;
 	padding: 10px 20px;
 	border: none;
-	border-radius: 4px;
+	border-radius: 10px;
 	cursor: pointer;
 	font-size: 25px;
 	margin-top: 30px;
 	margin-bottom: 20px;
 	transition: ease-in 0.3s;
+	width: 50%;
 }
 
 input[type="submit"]:hover {
 	background-color: skyblue;
 	color: #142b47;
-	box-shadow: 0px 0px 8px #142b47;
+	box-shadow: 0px 0px 8px rgba(20, 56, 95, 0.5);
 	transition: ease-out 0.3s;
 }
 
