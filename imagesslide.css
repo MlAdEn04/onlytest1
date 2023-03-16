@@ -1044,42 +1044,7 @@ width: 15px;
 
 
 
-@media screen and (max-width: 1090px){
 
-.fa-imdb{
-	margin-top: 30px;
-	font-size: 60px;
-	background-image: linear-gradient(to bottom, transparent, transparent, skyblue, skyblue);
-	color: #142b47;
-	height: 25px;
-	border-radius: 100px;
-	margin-left: 80px;
-	vertical-align: top;
-	
-}
-
-.fa-star{
-	margin-top: 30px;
-	font-size: 45px;
-	color: #142b47;
-	height: 25px;
-	border-radius: 100px;
-vertical-align: baseline;
-
-}
-
-
-.imdb{
-	margin-top: 30px;
-	margin-left: 10px;
-	font-size: 55px;
-	font-family: sans-serif;
-	top: 0;
-	position: relative;
-	
-}
-
-}
 
 @media screen and (max-width: 1090px){
 .slider{
@@ -1148,7 +1113,42 @@ vertical-align: baseline;
 
 }
 
+@media screen and (max-width: 1090px){
 
+.fa-imdb{
+	margin-top: 30px;
+	font-size: 60px;
+	background-image: linear-gradient(to bottom, transparent, transparent, skyblue, skyblue);
+	color: #142b47;
+	height: 25px;
+	border-radius: 100px;
+	margin-left: 80px;
+	vertical-align: top;
+	
+}
+
+.fa-star{
+	margin-top: 30px;
+	font-size: 45px;
+	color: #142b47;
+	height: 25px;
+	border-radius: 100px;
+vertical-align: baseline;
+
+}
+
+
+.imdb{
+	margin-top: 30px;
+	margin-left: 10px;
+	font-size: 55px;
+	font-family: sans-serif;
+	top: 0;
+	position: relative;
+	
+}
+
+}
 
 @media screen and (max-height: 576px){
 	.myslide{
