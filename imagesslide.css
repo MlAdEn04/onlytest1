@@ -1797,7 +1797,7 @@ br::selection{
 .color2{
 	position: relative;
     width:900px;
-    height:630px;
+    height:570px;
 	background-color: transparent;
 	  float:left;
     display: block;
@@ -1805,6 +1805,18 @@ br::selection{
 	}
 }
 
+@media screen and (max-height: 800px) {
+
+.color2{
+	position: relative;
+    width:600px;
+    height:100px;
+	background-color: transparent;
+	  float:left;
+    display: block;
+	grid-template-columns: auto auto auto;
+	}
+}
 
 .hidden1{
 	font-size: 1px;
